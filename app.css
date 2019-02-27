@@ -1,7 +1,14 @@
 h1{
 
-  font-family:Brush Script MT, Brush Script Std, cursive; /*fix this later*/
+  font-family:Brush Script MT, Brush Script Std, cursive;
 font-size: 75px;
-padding-left: 600px;
+text-align: center;
 color: #8ca6d1;
+padding-bottom: 0px;
+}
+#titlequote{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  color:#506fa0;
+  font-size: 30px;
+text-align: center;
 }
