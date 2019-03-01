@@ -7,8 +7,24 @@ color: #8ca6d1;
 padding-bottom: 0px;
 }
 #titlequote{
-  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
   color:#506fa0;
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 10px;
 text-align: center;
+}
+
+#logo{
+display: block;
+margin:auto;
+border-color: white;
+border-top-width: 12px;
+border-width: 25px
+height: 30%;
+width: 15%;
+}
+
+body{
+  background-image: url("https://art.ngfiles.com/images/575000/575023_tr1o_tr1o-minimalist-glacier.png?f1514348584");
+  background-size: cover;
 }
