@@ -17,14 +17,17 @@ text-align: center;
 #logo{
 display: block;
 margin:auto;
-border-color: white;
-border-top-width: 12px;
-border-width: 25px
-height: 30%;
-width: 15%;
+height: 24%;
+width: 12%;
+}
+
+.rectangle{
+  height: 70px;
+  width: 100%;
+  background-color: pink ;
+  margin-top: 10px;
 }
 
 body{
   background-image: url("https://art.ngfiles.com/images/575000/575023_tr1o_tr1o-minimalist-glacier.png?f1514348584");
   background-size: cover;
-}
