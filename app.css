@@ -16,17 +16,33 @@ text-align: center;
 
 #logo{
 display: block;
+position: fixed;
 margin:auto;
-height: 24%;
-width: 12%;
+height: 200px;
+width: 200px;
+z-index: 1;
 }
 
 .rectangle{
-  height: 70px;
+  height: 250px;
   width: 100%;
-  background-color: pink ;
-  margin-top: 10px;
+  background-color: pink;
+  opacity: 0.75;
+  position: fixed;
+  top: 0px;
+  z-index: 0;
 }
+
+
+#cloud{
+  display: block;
+  margin:auto;
+  animation-timing-function:ease;
+animation-duration: 5s;
+animation-play-state: running;
+}
+
+
 
 body{
   background-image: url("https://art.ngfiles.com/images/575000/575023_tr1o_tr1o-minimalist-glacier.png?f1514348584");
