@@ -21,13 +21,23 @@
 <p id= "titlequote">Your guide to a more tranquil life</p></div>
 <img src= "Images/a0d2c338c4b0e615c595e274fdaa52df.png" id = "clouds"/>
 
-<div class = "slider">
-<input type="range" id="start" name="volume"
-min="0" max="10">
+<div class = "slidecontainer">
 
- <input type= "submit">
+<input type="range" id="myRange" min="0" max="10" class="slider" value="5">
+<p>Value:<span id="demo"></span></p>
 
 </div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.output = function() {
+  output.innerHTML = this.value;
+</script>
+
+<button>submit</buton>
 
   </body>
 </html>
