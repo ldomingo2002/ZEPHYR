@@ -51,24 +51,18 @@ text-align: center;
 #logo{
 display: block;
 position: fixed;
-<<<<<<< HEAD
 margin-top: 90px;
 height: 175px;
 width: 200px;
-=======
 height: 100px;
 width: 100px;
->>>>>>> 35f99e0ace93303213a1c28b27b096910a35dbe8
 z-index: 1;
 }
 
 .rectangle{
-<<<<<<< HEAD
   margin-top: 100px;
   height: 175px;
-=======
   height: 100px;
->>>>>>> 35f99e0ace93303213a1c28b27b096910a35dbe8
   width: 100%;
   background-color: white;
   opacity: 0.85;
