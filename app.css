@@ -9,25 +9,57 @@ text-align: center;
 color: #8ca6d1;
 padding-bottom: 0px;
 }
+nav > a{
+font-size: 25px;
+}
+nav a{
+    display: block;
+     float: left;
+   font-family: comic-sans;
+    color:white;
+    background-color: #2583b2;
+    border: 3px solid #000;
+    padding-top: 20px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+       text-decoration: none;
+ }
+ nav a:visited{
+   color: white;
+ }
+ a:active{
+   color:#42ebf4;
+ }
+  nav a:hover{
+     background-color:#0f5375;
+  }
+ a:hover{
+   background-color: white;
+ }
+ a:visited{
+   color: #1b425b;
+ }
 #titlequote{
   font-family: "Brush Script MT", "Brush Script Std", cursive;
   color:#506fa0;
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 50px;
+  margin-top: 50px;
 text-align: center;
 }
 
 #logo{
 display: block;
 position: fixed;
-margin:auto;
-height: 200px;
+margin-top: 90px;
+height: 175px;
 width: 200px;
 z-index: 1;
 }
 
 .rectangle{
-  height: 250px;
+  margin-top: 100px;
+  height: 175px;
   width: 100%;
   background-color: pink;
   opacity: 0.75;
@@ -44,10 +76,6 @@ z-index: 1;
 animation-duration: 5s;
 animation-play-state: running;
 }
-#gamedrescription{
-  text-align: center;
-color: #8e558c;
-}
 
 #paddleball{
   text-decoration: underline;
@@ -55,8 +83,6 @@ color: #8e558c;
   text-align: center;
 color: #8e558c;
 }
-
-
 
 body{
   background-image: url("https://art.ngfiles.com/images/575000/575023_tr1o_tr1o-minimalist-glacier.png?f1514348584");
