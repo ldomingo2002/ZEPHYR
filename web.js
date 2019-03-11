@@ -1,0 +1,3 @@
+function startGame(){
+  document.getElementbyId('');
+}
