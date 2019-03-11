@@ -1,7 +1,9 @@
 
 #startbutton{
+<<<<<<< HEAD
   margin-top: 900px;
 padding-left: 30px;
+  margin-top: 500px;
   padding: 30px 130px;
   font-size: 20px;
   float: left;
@@ -17,4 +19,9 @@ padding-left: 30px;
   background: url("Dream big and dare to fail. (1).png");
   height: 1080px;
   width: 1920px;
+}
+
+
+body{
+  background-image: url(Images\Dream big and dare to fail. (1).png);
 }
