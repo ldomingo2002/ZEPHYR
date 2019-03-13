@@ -1,0 +1,42 @@
+#startbutton{
+  height: 90px;
+  width: 10px;
+  margin-top: 30%;
+  margin-left: 65%;
+  padding: 30px 130px;
+  font-size: 20px;
+  background-color: #dddddd;
+  border-color: black;
+  border-style: solid;
+  margin-right: 50%;
+}
+#startbutton:hover{
+  background-color: #bc2929;
+}
+
+#notIMG{
+  opacity: 0;
+}
+body{
+  background: url("Dream big and dare to fail. (1).png");
+  background-size: 115%;
+  background-position: left;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+p{
+  color: white;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#nav{
+  z-index: 1;
+  background-color: white;
+  height: 60px;
+  width: 25%;
+}
