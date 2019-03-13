@@ -1,13 +1,19 @@
-
 #startbutton{
-  margin-top: 500px;
+  margin-top: 900px;
+padding-left: 30px;
   padding: 30px 130px;
   font-size: 20px;
   float: left;
   z-index: 0;
+  background-color: #ce0e0e;
+  border-color: black;
+}
+#homeimg{
+  width:100%;
 }
 
-
-body{
-  background-image: url(Images\Dream big and dare to fail. (1).png);
+#home{
+  background: url("Dream big and dare to fail. (1).png");
+  height: 1080px;
+  width: 1920px;
 }
