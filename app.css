@@ -5,15 +5,16 @@ padding-left: 30px;
   font-size: 20px;
   float: left;
   z-index: 0;
-  background-color: #ce0e0e;
+  background-color: grey;
   border-color: black;
+
 }
 #homeimg{
   width:100%;
 }
 
-#home{
+body{
   background: url("Dream big and dare to fail. (1).png");
-  height: 1080px;
-  width: 1920px;
+  background-size: 100%;
+
 }
