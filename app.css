@@ -10,10 +10,9 @@ padding-left: 30px;
   border-color: gray;
 
 }
-#homeimg{
-  width:100%;
+#notIMG{
+  opacity: 0;
 }
-
 body{
   background: url("Dream big and dare to fail. (1).png");
   background-size: 115%;

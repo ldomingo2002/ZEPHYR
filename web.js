@@ -1,5 +1,5 @@
 function startGame(){
-  document.getElementById("startimg")
+  document.getElementsByName("Dream big and dare to fail. (1).png").style.background = url("")
 }
 
 
