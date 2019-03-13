@@ -14,6 +14,8 @@ padding-left: 30px;
 
 #home{
   background: url("Dream big and dare to fail. (1).png");
-  height: 1080px;
-  width: 1920px;
+  height: 100vh;
+    width: 100%;
+    object-fit: contain;
+
 }
