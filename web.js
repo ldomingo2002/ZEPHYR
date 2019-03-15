@@ -1,5 +1,6 @@
 function startGame(){
-  document.getElementsById("Home").style.background = url("1551412813123.png");
+
+document.getElementById('Home').style.background ="Images\a0d2c338c4b0e615c595e274fdaa52df.png";
 }
 
 
@@ -14,3 +15,10 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+//var image = document.getElementById("Home");
+//if(image.src.match("1551412813123.png")){
+  //image.src = "Images\1551412813123.png";
+//  } else{
+//    img.src = "Images\1551412813123.png";
+//  }
+//
