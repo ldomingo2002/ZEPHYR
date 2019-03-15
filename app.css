@@ -23,11 +23,9 @@
 }
 
 body{
-  background: url("Dream big and dare to fail. (1).png");
   background-size: 115%;
   background-position: left;
   background-repeat: no-repeat;
-  z-index: 0;
 }
 
 p{
