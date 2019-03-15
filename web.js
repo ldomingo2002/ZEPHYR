@@ -1,5 +1,6 @@
 function startGame(){
-  document.getElementsByName("Dream big and dare to fail. (1).png").style.background = url("")
+
+document.getElementById('Home').background ="1551412813123.png";
 }
 
 
@@ -14,3 +15,10 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+//var image = document.getElementById("Home");
+//if(image.src.match("1551412813123.png")){
+  //image.src = "Images\1551412813123.png";
+//  } else{
+//    img.src = "Images\1551412813123.png";
+//  }
+//
