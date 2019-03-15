@@ -1,6 +1,6 @@
 function startGame(){
 
-document.getElementById('Home').style.background ="Images\a0d2c338c4b0e615c595e274fdaa52df.png";
+document.getElementById('Home').background ="1551412813123.png";
 }
 
 
