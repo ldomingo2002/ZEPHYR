@@ -1,6 +1,5 @@
 function startGame(){
-
-document.getElementById('Home').background ="1551412813123.png";
+document.getElementById('canvas').style.background = "url(images/ceiling.png)";
 }
 
 
