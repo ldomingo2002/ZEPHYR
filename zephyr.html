@@ -16,24 +16,15 @@
 
   </head>
   <body  id ="home" background = "Images\homeImg.png">
-  <div id ="home">
-      <div>
-        <canvas id="canvas"  ></canvas>
-        <input type="button" id = "startbutton" value="BEGIN" onclick="document.body.style.cssText+=';background-image: url(Images\ceiling.png);';">
+  <p> Press Start to Begin <strong> buckaroo </strong> </p>
 
-      </div>
+  <button type="startbutton" onclick="myFunction()">Begin</button>
 
-      <div>
-        <p id = "text"> </p>
-      </div>
-
-
-      <div class = "animation">
-        <p> Press Start to Begin <strong> buckaroo </strong> </p>
-      </div>
-
-
-
+<script>
+  function myFunction() {
+      document.body.style.backgroundImage = "url('Images/ceiling.png')";
+      }
+</script>
 
   </body>
 
