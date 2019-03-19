@@ -18,6 +18,7 @@
   <body  id ="home" background = "Images\homeImg.png">
 
     <div id="disapear" onclick="myFunction()">
+  <button id="startbutton" onclick="myFunction()">Begin</button>
   <p> Press Start to Begin <strong> buckaroo </strong> </p>
   <button id="startbutton" onclick="myFunction()">Begin</button>
 </div>
@@ -27,6 +28,7 @@
   function myFunction() {
       document.body.style.backgroundImage = "url('Images/ceiling.png')";
       document.body.style.backgroundSize = "100%";
+      document.body.style.backgroundPosition = "top right";
       document.getElementById("disapear").style.display = "none";
       }
 </script>
