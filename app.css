@@ -7,15 +7,17 @@
   width: 10px;
   margin-top: 30%;
   margin-left: 65%;
-  padding: 30px 130px;
-  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 100px;
+  font-size: 30px;
   background-color: #dddddd;
-  border-color: black;
+  border-color: gray;
   border-style: solid;
   margin-right: 50%;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 #startbutton:hover{
-  background-color: #bc2929;
+  background-color: gray;
 }
 
 #notIMG{
@@ -32,9 +34,9 @@ p{
   color: white;
   font-size: 40px;
   text-align: right;
-  padding-right: 70px;
+  padding-right: 10%;
   padding-bottom: 20px;
-font-family: 'Nanum Gothic', sans-serif;;
+font-family: 'Nanum Gothic', sans-serif;
 }
 
 #nav{
