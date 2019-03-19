@@ -16,23 +16,18 @@
 
   </head>
   <body  id ="home" background = "Images\homeImg.png">
-
-        <div id="myCanvas">
-  <canvas id="canvas"></canvas>
-  </div>
-        <input type="button" id = "startbutton" value="BEGIN" onclick= "startGame()">
-
+    <div id="disapear" onclick="myFunction()">
+  <p> Press Start to Begin <strong> buckaroo </strong> </p>
+  <button type="startbutton" onclick="myFunction()">Begin</button>
+</div>
 
 
-        <p id = "text"> </p>
-
-
-      <div class = "animation">
-        <p> Press Start to Begin <strong> buckaroo </strong> </p>
-      </div>
-
-
-
+<script>
+  function myFunction() {
+      document.body.style.backgroundImage = "url('Images/ceiling.png')";
+      document.getElementById("disapear").style.display = "none";
+      }
+</script>
 
   </body>
 
