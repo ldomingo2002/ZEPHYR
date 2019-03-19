@@ -20,12 +20,10 @@
   background-color: gray;
 }
 
-#notIMG{
-  opacity: 0;
-}
+
 
 body{
-  background-size: 115%;
+  background-size:120%;
   background-position: left;
   background-repeat: no-repeat;
 }
