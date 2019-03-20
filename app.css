@@ -22,8 +22,9 @@
   background-color: #dddddd;
   border-radius: 10%;
 }
-
-
+#button{
+  height: 20px;
+}
 
 body{
 background: url('Images/NEWHOME.png') no-repeat;
