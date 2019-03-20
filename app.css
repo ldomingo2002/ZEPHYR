@@ -1,44 +1,47 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
 
 #startbutton{
   height: 90px;
   width: 10px;
-  margin-top: 30%;
-  margin-left: 65%;
+  border-radius: 100%;
+  margin-top: 26%;
+  margin-left: 46%;
   padding-left: 15px;
   padding-right: 100px;
   font-size: 30px;
   background-color: #dddddd;
-  border-color: gray;
+  border-color: rgb(237, 213, 216);
   border-style: solid;
   margin-right: 50%;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Finger Paint', cursive;
+  transition: all .3s ease-in-out;
 }
 #startbutton:hover{
-  background-color: gray;
+  background-color: #dddddd;
+  border-radius: 10%;
 }
 
 
 
 body{
-  background-size:120%;
-  background-position: left;
-  background-repeat: no-repeat;
+background: url('Images/NEWHOME.png') no-repeat;
+overflow: hidden;
+background-size: cover;
 }
 
 p{
   color: white;
   font-size: 40px;
-  text-align: right;
-  padding-right: 10%;
+  text-align: center;
   padding-bottom: 20px;
-font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Finger Paint', cursive;
 }
 
 #nav{
   z-index: 1;
   height: 60px;
   width: 25%;
+  font-family: 'Finger Paint', cursive;
 }
