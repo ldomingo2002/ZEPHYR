@@ -18,7 +18,7 @@
  <body>
 
 <div id="disapear" onclick="myFunction()">
-  <button id="startbutton" class = "fade" onclick="myFunction()">Start</button>
+  <button id="startbutton" class = "fade" onclick="myFunction(); changePage();">Start</button>
   <p> Press Start to Begin <strong> buckaroo </strong> </p>
   <p id="typeText"></p>
 </div>
@@ -30,7 +30,12 @@
       document.body.style.backgroundSize = "100%";
       document.body.style.backgroundPosition = "top right";
       document.getElementById("disapear").style.display = "none";
-}
+
+
+
+//makes 2 buttons
+      }
+
 </script>
 
   </body>
