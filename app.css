@@ -46,3 +46,7 @@ font-family: 'Finger Paint', cursive;
   width: 25%;
   font-family: 'Finger Paint', cursive;
 }
+
+#no{
+  display: none;
+}
