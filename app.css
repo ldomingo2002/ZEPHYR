@@ -25,7 +25,14 @@
 #button{
   height: 20px;
 }
-
+#nextButton{
+  margin-top: 300px;
+  margin-left: 150px;
+}
+#nextButton2{
+  margin-top: 300px;
+  margin-left: 350px;
+}
 body{
 background: url('Images/NEWHOME.png') no-repeat;
 overflow: hidden;
