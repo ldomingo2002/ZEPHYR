@@ -18,7 +18,7 @@
  <body>
 
 <div id="disapear" onclick="myFunction()">
-  <button id="startbutton" class = "fade" onclick="myFunction();">Start</button>
+  <button id="startbutton" class = "fade" onclick="myFunction(); changePage();">Start</button>
   <p> Press Start to Begin <strong> buckaroo </strong> </p>
   <p id="typeText"></p>
 </div>
@@ -30,22 +30,12 @@
       document.body.style.backgroundSize = "100%";
       document.body.style.backgroundPosition = "top right";
       document.getElementById("disapear").style.display = "none";
-    var btn1 = document.createElement("BUTTON");
-      btn1.innerHTML  = "Next";
-      document.body.appendChild(btn1);
 
-    btn1.onclick =  function typeWriter(){
-        var i = 0;
-var txt = 'You open your eyes and your head is spinning';
-console.log("text shhould appear")
-var speed = 25;
-if (i < txt.length) {
-   document.getElementById("typeText").innerHTML += txt.charAt(i);
-   i++;
-   setTimeout(typeWriter, speed);
+
+
+//makes 2 buttons
       }
-        }
-}
+
 </script>
 
 
