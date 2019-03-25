@@ -3,10 +3,6 @@ document.getElementById('canvas').style.background = "url(images/ceiling.png)";
 }
 
 
-function changeImg(){
-document.getElementById('startbutton').style.backgroundImage = "url('Images\ceiling.png')";
-}
-
  function changePage(){
    //option 1
    var button = document.createElement("button");
