@@ -6,13 +6,26 @@ function myFunction() {
     document.getElementById("disapear").style.display = "none";
   }
 
+function gameOver(){
+  document.body.style.backgroundImage = "url('images/gameover.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button3").style.display = "none";
+}
+
   function losePage1() {
     document.body.style.backgroundImage = "url('images/creepyhallway.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton").style.display = "none";
     document.getElementById("nextButton2").style.display = "none";
-
+    var button3 = document.createElement("button");
+     button3.innerHTML = "Next";
+     button3.onlick = gameOver;
+     var body = document.getElementsByTagName("body")[0];
+     body.appendChild(button3);
+  var idT = button3;
+  idT.setAttribute("id", "nextButton3");
   }
 
  function changePage(){
@@ -29,7 +42,9 @@ idT.setAttribute("id", "nextButton");
 //option 2
 var button2 = document.createElement("button");
 button2.innerHTML = "Option 2";
-
+//good option Option
+//button2.onlick = goodOption1;
+//make this later
 var body = document.getElementsByTagName("body")[0];
 body.appendChild(button2);
 
