@@ -26,12 +26,14 @@
   height: 20px;
 }
 #nextButton{
-  margin-top: 300px;
-  margin-left: 150px;
+  margin-top: 500px;
+  margin-left: 400px;
+  height: 50px;
 }
 #nextButton2{
-  margin-top: 300px;
-  margin-left: 350px;
+  margin-top: 500px;
+  margin-left: 450px;
+  height: 50px;
 }
 body{
 background: url('Images/NEWHOME.png') no-repeat;
