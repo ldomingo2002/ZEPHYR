@@ -19,6 +19,7 @@ function gameOver(){
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton").style.display = "none";
     document.getElementById("nextButton2").style.display = "none";
+<<<<<<< HEAD
     var button3 = document.createElement("button");
      button3.innerHTML = "Next";
      button3.onlick = gameOver;
@@ -26,6 +27,8 @@ function gameOver(){
      body.appendChild(button3);
   var idT = button3;
   idT.setAttribute("id", "nextButton3");
+=======
+>>>>>>> 4877daccd002358f241164caa81b61c99f381896
   }
 
  function changePage(){
