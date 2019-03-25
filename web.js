@@ -12,7 +12,6 @@ function myFunction() {
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton").style.display = "none";
     document.getElementById("nextButton2").style.display = "none";
-
   }
 
  function changePage(){
