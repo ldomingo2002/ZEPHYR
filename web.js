@@ -17,7 +17,7 @@ function myFunction() {
     body.appendChild(restart);
  var idT = restart;
  idT.setAttribute("id", "restartButton");
-  //  restart.onclick = myFunction;
+ restart.onclick = myFunction;
 //goes back to text only page
   }
 
