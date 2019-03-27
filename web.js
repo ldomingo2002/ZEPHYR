@@ -1,7 +1,7 @@
 //to change pages
 function myFunction() {
     document.body.style.backgroundImage = "url('Images/leceiling.png')";
-    document.body.style.backgroundSize = "100%";
+    document.body.style.backgroundSize = 100%;
     document.body.style.backgroundPosition = "top right";
     document.getElementById("disapear").style.display = "none";
   }
@@ -36,6 +36,7 @@ function myFunction() {
   idT.setAttribute("id", "nextButton3");
 
   }
+
 
  function changePage(){
    //option 1
