@@ -26,20 +26,25 @@
   height: 20px;
 }
 #nextButton{
-  margin-top: 500px;
-  margin-left: 175px;
+  margin-top: 41%;
+  margin-left: 14%;
   height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
 }
 #nextButton2{
-  margin-top: 500px;
-  margin-left: 800px;
+  margin-top: 41%;
+  margin-left: 62%;
   height: 50px;
+  width:  100px;
+  font-family: 'Finger Paint', cursive;
 }
 #nextButton3{
   margin-top: 500px;
   margin-left: 800px;
   height: 60px;
   width: 75px;
+  font-family: 'Finger Paint', cursive;
 }
 body{
 background: url('Images/NEWHOME.png') no-repeat;
