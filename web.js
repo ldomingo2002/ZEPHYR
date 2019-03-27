@@ -6,12 +6,13 @@ function myFunction() {
     document.getElementById("disapear").style.display = "none";
   }
 
-function gameOver(){
-  document.body.style.backgroundImage = "url('images/gameover.png')";
-  document.body.style.backgroundSize = "100%";
-  document.body.style.backgroundPosition = "top right";
-  document.getElementById("button3").style.display = "none";
-}
+  function gameOver() {
+    document.body.style.backgroundImage = "url('images/gameover.png')";
+    document.body.style.backgroundSize = "100%";
+    document.body.style.backgroundPosition = "top right";
+    document.getElementById("nextButton3").style.display = "none";
+
+  }
 
   function losePage1() {
     document.body.style.backgroundImage = "url('images/creepyhallway.png')";
@@ -19,16 +20,14 @@ function gameOver(){
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton").style.display = "none";
     document.getElementById("nextButton2").style.display = "none";
-<<<<<<< HEAD
     var button3 = document.createElement("button");
      button3.innerHTML = "Next";
-     button3.onlick = gameOver;
+     button3.onclick = gameOver;
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
   idT.setAttribute("id", "nextButton3");
-=======
->>>>>>> 4877daccd002358f241164caa81b61c99f381896
+
   }
 
  function changePage(){
@@ -41,6 +40,7 @@ button1.onclick = losePage1;
    body.appendChild(button1);
 var idT = button1;
 idT.setAttribute("id", "nextButton");
+console.log("went to losePage1");
 
 //option 2
 var button2 = document.createElement("button");
