@@ -36,13 +36,12 @@ function myFunction() {
     document.getElementById("nextButton2").style.display = "none";
     var button3 = document.createElement("button");
      button3.innerHTML = "Next";
-       button3.onclick = gameOver;
+     button3.onclick = gameOver;
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
   idT.setAttribute("id", "nextButton3");
   }
-
 
  function changePage(){
    //option 1
