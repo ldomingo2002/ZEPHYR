@@ -48,7 +48,6 @@ function myFunction() {
   idT.setAttribute("id", "nextButton3");
   }
 
-
  function changePage(){
    //option 1
    var button1 = document.createElement("button");
