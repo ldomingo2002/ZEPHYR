@@ -7,16 +7,16 @@ function myFunction() {
   }
 
   function home() {
-    document.body.style.backgroundImage = "url('images/NEWHOME.png')";
+    document.body.style.backgroundImage = "url('images/NEWSTART.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
     var newStart = document.createElement("button");
-    newstart.innerHTML = "Start";
+    newStart.innerHTML = "Start";
+    var idT = newStart;
+    idT.setAttribute("id", "startbutton2");
     var body = document.getElementsByTagName("body")[0];
-    body.appendChild(start);
-    var idT = restart;
-    idT.setAttribute("id", "startbutton");
-    newStart.onclick = home;
+    body.appendChild(newStart);
+    newStart.onclick = myFunction;
   }
 
   function gameOver() {
