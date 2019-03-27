@@ -6,17 +6,12 @@ function myFunction() {
     document.getElementById("disapear").style.display = "none";
   }
 
-  function home() {
+
+  function reset() {
     document.body.style.backgroundImage = "url('images/NEWSTART.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
-    var newStart = document.createElement("button");
-    newStart.innerHTML = "Start";
-    var idT = newStart;
-    idT.setAttribute("id", "startbutton2");
-    var body = document.getElementsByTagName("body")[0];
-    body.appendChild(newStart);
-    newStart.onclick = myFunction;
+    document.getElementById("disapear").style.display = "none";
   }
 
   function gameOver() {
@@ -30,7 +25,7 @@ function myFunction() {
     body.appendChild(restart);
     var idT = restart;
     idT.setAttribute("id", "restartButton");
-    restart.onclick = home;
+    restart.onclick = reset;
   }
 
   function losePage1() {
@@ -40,17 +35,14 @@ function myFunction() {
     document.getElementById("nextButton").style.display = "none";
     document.getElementById("nextButton2").style.display = "none";
     var button3 = document.createElement("button");
-     button3.innerHTML = "Next";     button3.onclick = gameOver;
+     button3.innerHTML = "Next";
+       button3.onclick = gameOver;
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
   idT.setAttribute("id", "nextButton3");
   }
 
-function newStart(){
-  document.style.backgroundImage = "url('images/NEWSTART.png')";
-  document
-}
 
  function changePage(){
    //option 1
