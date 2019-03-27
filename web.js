@@ -6,6 +6,19 @@ function myFunction() {
     document.getElementById("disapear").style.display = "none";
   }
 
+  function home() {
+    document.body.style.backgroundImage = "url('images/NEWHOME.png')";
+    document.body.style.backgroundSize = "100%";
+    document.body.style.backgroundPosition = "top right";
+    var newStart = document.createElement("button");
+    newstart.innerHTML = "Start";
+    var body = document.getElementsByTagName("body")[0];
+    body.appendChild(start);
+    var idT = restart;
+    idT.setAttribute("id", "startbutton");
+    newStart.onclick = home;
+  }
+
   function gameOver() {
     document.body.style.backgroundImage = "url('images/gameover.png')";
     document.body.style.backgroundSize = "100%";
@@ -15,10 +28,9 @@ function myFunction() {
     restart.innerHTML = "Go back";
     var body = document.getElementsByTagName("body")[0];
     body.appendChild(restart);
- var idT = restart;
- idT.setAttribute("id", "restartButton");
- restart.onclick = myFunction;
-//goes back to text only page
+    var idT = restart;
+    idT.setAttribute("id", "restartButton");
+    restart.onclick = home;
   }
 
   function losePage1() {
