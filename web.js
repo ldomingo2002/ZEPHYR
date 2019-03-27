@@ -49,6 +49,7 @@ function myFunction() {
 
   }
 
+
  function changePage(){
    //option 1
    var button1 = document.createElement("button");
