@@ -11,7 +11,14 @@ function myFunction() {
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton3").style.display = "none";
-
+    var restart = document.createElement("button");
+    restart.innerHTML = "Go back";
+    var body = document.getElementsByTagName("body")[0];
+    body.appendChild(restart);
+ var idT = restart;
+ idT.setAttribute("id", "restartButton");
+  //  restart.onclick = myFunction;
+//goes back to text only page
   }
 
   function losePage1() {
