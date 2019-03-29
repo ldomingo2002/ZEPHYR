@@ -17,7 +17,7 @@ function myFunction() {
  button1.onclick = losePage1;
   //option 2
   var button2 = document.createElement("button");
-  var body2 = document.getElementsByTagName("body")[0];
+  var body2 = document.getElementsByTagName("body")[ 0];
   body2.appendChild(button2);
   var idT2 = button2;
   idT2.setAttribute("id", "nextButton2");
