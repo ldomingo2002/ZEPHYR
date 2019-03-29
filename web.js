@@ -34,6 +34,20 @@ function myFunction() {
   var idT = button3;
   idT.setAttribute("id", "nextButton3");
   }
+function goodOption1() {
+  document.body.style.backgroundImage = "url('images/creepyhallway.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButton").style.display = "none";
+  document.getElementById("nextButton2").style.display = "none";
+  var button3 = document.createElement("button");
+   button3.innerHTML = "Next";
+   button3.onclick = gameOver;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(button3);
+var idT = button3;
+idT.setAttribute("id", "nextButton3");
+}
 
  function changePage(){
    //option 1
@@ -46,16 +60,13 @@ button1.onclick = losePage1;
 var idT = button1;
 idT.setAttribute("id", "nextButton");
 console.log("went to losePage1");
-
 //option 2
 var button2 = document.createElement("button");
 button2.innerHTML = "Option 2";
 //good option Option
-//button2.onlick = goodOption1;
-//make this later
+button2.onlick = goodOption1;
 var body = document.getElementsByTagName("body")[0];
 body.appendChild(button2);
-
 var idT = button2;
 idT.setAttribute("id", "nextButton2");
  }
