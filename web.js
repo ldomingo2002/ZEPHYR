@@ -14,7 +14,7 @@ function myFunction() {
     body.appendChild(button1);
   var idT = button1;
   idT.setAttribute("id", "nextButton");
-  button1.onclick = losePage1;
+ button1.onclick = losePage1;
   //option 2
   var button2 = document.createElement("button");
   var body2 = document.getElementsByTagName("body")[0];
@@ -22,8 +22,8 @@ function myFunction() {
   var idT2 = button2;
   idT2.setAttribute("id", "nextButton2");
   button2.innerHTML = "Option 2";
-  button2.onlick = goodOption1;
-  }
+  button2.onclick = goodOption1;
+}
 
 
   function gameOver() {
