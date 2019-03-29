@@ -6,26 +6,18 @@ function myFunction() {
     document.getElementById("disapear").style.display = "none";
   }
 
-
-  function reset() {
-    document.body.style.backgroundImage = "url('images/NEWSTART.png')";
-    document.body.style.backgroundSize = "100%";
-    document.body.style.backgroundPosition = "top right";
-    document.getElementById("disapear").style.display = "none";
-  }
-
   function gameOver() {
     document.body.style.backgroundImage = "url('images/gameover.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton3").style.display = "none";
     var restart = document.createElement("button");
-    restart.innerHTML = "Go back";
+  /*  restart.innerHTML = "Go back";
     var body = document.getElementsByTagName("body")[0];
     body.appendChild(restart);
     var idT = restart;
     idT.setAttribute("id", "restartButton");
-    restart.onclick = reset;
+    restart.onclick = reset;*/
   }
 
   function losePage1() {
