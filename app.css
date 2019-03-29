@@ -66,6 +66,15 @@
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
+
+#nextButton4{
+  margin-top: 500px;
+  margin-left: 800px;
+  height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
+}
+
 body{
 background: url('Images/NEWHOME.png') no-repeat;
 overflow: hidden;
