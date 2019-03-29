@@ -60,7 +60,10 @@ function changePage2(){
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton4").style.display = "none";
-  
+  var button5 = document.createElement("button");
+  button5.innerHTML = "Option 3";
+  var button6 = document.createElement("button");
+  button6.innerHTML = "Option 4";
 }
 
 function gameOver() {
