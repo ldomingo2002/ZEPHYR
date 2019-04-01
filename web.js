@@ -22,7 +22,7 @@ function myFunction() {
   var idT2 = button2;
   idT2.setAttribute("id", "nextButton2");
   button2.innerHTML = "Option 2";
-  button2.onclick = goodOption1;
+  button2.onclick = option1;
 }
 
   function losePage1() {
@@ -40,7 +40,7 @@ function myFunction() {
   idT.setAttribute("id", "nextButton3");
   }
 
-function goodOption1() {
+function option1() {
   document.body.style.backgroundImage = "url('images/option2.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
@@ -61,9 +61,20 @@ function changePage2(){
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton4").style.display = "none";
   var button5 = document.createElement("button");
-  button5.innerHTML = "Option 3";
-  var button6 = document.createElement("button");
-  button6.innerHTML = "Option 4";
+   button5.innerHTML = "Option 3";
+   button5.onclick = changePage2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(button5);
+var idT = button5;
+idT.setAttribute("id", "button5");
+
+var button6 = document.createElement("button");
+button6.innerHTML = "Option 4";
+button6.onclick = changePage2;
+var body2 = document.getElementsByTagName("body")[0];
+body2.appendChild(button6);
+var idT2 = button2;
+idT2.setAttribute("id", "button6");
 }
 
 function gameOver() {
