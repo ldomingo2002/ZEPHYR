@@ -73,7 +73,7 @@ button6.innerHTML = "Option 4";
 button6.onclick = changePage2;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button6);
-var idT2 = button2;
+var idT2 = button6;
 idT2.setAttribute("id", "button6");
 }
 
