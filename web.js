@@ -20,7 +20,7 @@ function myFunction() {
   var body2 = document.getElementsByTagName("body")[ 0];
   body2.appendChild(button2);
   var idT2 = button2;
-  idT2.setAttribute("id", "nextButton2");
+  idT2.setAttribute("id", "button2");
   button2.innerHTML = "Option 2";
   button2.onclick = option1;
 }
@@ -30,14 +30,14 @@ function myFunction() {
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
     document.getElementById("nextButton").style.display = "none";
-    document.getElementById("nextButton2").style.display = "none";
+    document.getElementById("button2").style.display = "none";
     var button3 = document.createElement("button");
      button3.innerHTML = "Next";
      button3.onclick = gameOver;
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
-  idT.setAttribute("id", "nextButton3");
+  idT.setAttribute("id", "button3");
   }
 
 function option1() {
@@ -45,7 +45,7 @@ function option1() {
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton").style.display = "none";
-  document.getElementById("nextButton2").style.display = "none";
+  document.getElementById("button2").style.display = "none";
   var button4 = document.createElement("button");
    button4.innerHTML = "Next";
    button4.onclick = changePage2;
@@ -83,6 +83,13 @@ function option3(){
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button5").style.display = "none";
   document.getElementById("button6").style.display = "none";
+  var nextButton2 =  document.createElement("button");
+   nextButton2.innerHTML = "Next";
+   nextButton2.onclick = nextButton2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton2);
+var idT = nextButton2;
+idT.setAttribute("id", "nextButton2");
 }
 
 function option4(){
@@ -97,7 +104,7 @@ function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton3").style.display = "none";
+  document.getElementById("button3").style.display = "none";
   var restart = document.createElement("button");
 /*  restart.innerHTML = "Go back";
   var body = document.getElementsByTagName("body")[0];
