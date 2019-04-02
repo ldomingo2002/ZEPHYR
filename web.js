@@ -62,12 +62,12 @@ function changePage2(){
   document.getElementById("nextButton4").style.display = "none";
   var button5 = document.createElement("button");
    button5.innerHTML = "Option 3";
-   button5.onclick = changePage2;
+   button5.onclick = button5;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button5);
 var idT = button5;
 idT.setAttribute("id", "button5");
-
+//bad option
 var button6 = document.createElement("button");
 button6.innerHTML = "Option 4";
 button6.onclick = changePage2;
@@ -77,6 +77,13 @@ var idT2 = button6;
 idT2.setAttribute("id", "button6");
 }
 
+function button5(){
+  document.body.style.backgroundImage = "url('images/hallwaychoice.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("button6").style.display = "none";
+}
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
   document.body.style.backgroundSize = "100%";
