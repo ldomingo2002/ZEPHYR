@@ -66,6 +66,7 @@
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
+
 #nextButton4{
   margin-top: 500px;
   margin-left: 800px;
@@ -74,15 +75,15 @@
   font-family: 'Finger Paint', cursive;
 }
 #button5{
-  margin-top: 500px;
-  margin-left: 800px;
+  margin-top: 40%;
+  margin-left: 35%;
   height: 50px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
 #button6{
-  margin-top: 500px;
-  margin-left: 800px;
+  margin-top: 41%;
+  margin-left: 61%;
   height: 50px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
