@@ -93,23 +93,29 @@ idT.setAttribute("id", "nextButton2");
 }
 
 function option4(){
-  document.body.style.backgroundImage = "url('images/cafeteria.png')";
+  document.body.style.backgroundImage = "url('images/CHEMISTRY.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button5").style.display = "none";
   document.getElementById("button6").style.display = "none";
+  var nextButton3 =  document.createElement("button");
+   nextButton3.innerHTML = "Next";
+   nextButton3.onclick = gameOver2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton3);
+var idT = nextButton3;
+idT.setAttribute("id", "nextButton3");
 }
 
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("button3").style.display = "none";
-  var restart = document.createElement("button");
-/*  restart.innerHTML = "Go back";
-  var body = document.getElementsByTagName("body")[0];
-  body.appendChild(restart);
-  var idT = restart;
-  idT.setAttribute("id", "restartButton");
-  restart.onclick = reset;*/
+  document.getElementBytag("button3").style.display = "none";
+}
+function gameOver2() {
+  document.body.style.backgroundImage = "url('images/gameover.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButton3").style.display = "none";
 }
