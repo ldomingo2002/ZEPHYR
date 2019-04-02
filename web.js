@@ -62,7 +62,7 @@ function changePage2(){
   document.getElementById("nextButton4").style.display = "none";
   var button5 = document.createElement("button");
    button5.innerHTML = "Option 3";
-   button5.onclick = button5;
+   button5.onclick = option3;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button5);
 var idT = button5;
@@ -70,14 +70,22 @@ idT.setAttribute("id", "button5");
 //bad option
 var button6 = document.createElement("button");
 button6.innerHTML = "Option 4";
-button6.onclick = changePage2;
+button6.onclick = option4;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button6);
 var idT2 = button6;
 idT2.setAttribute("id", "button6");
 }
 
-function button5(){
+function option3(){
+  document.body.style.backgroundImage = "url('images/cafeteria.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button5").style.display = "none";
+  document.getElementById("button6").style.display = "none";
+}
+
+function option4(){
   document.body.style.backgroundImage = "url('images/cafeteria.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
