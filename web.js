@@ -78,12 +78,13 @@ idT2.setAttribute("id", "button6");
 }
 
 function button5(){
-  document.body.style.backgroundImage = "url('images/hallwaychoice.png')";
+  document.body.style.backgroundImage = "url('images/cafeteria.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button5").style.display = "none";
   document.getElementById("button6").style.display = "none";
 }
+
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
   document.body.style.backgroundSize = "100%";
