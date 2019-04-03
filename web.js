@@ -85,11 +85,18 @@ function option3(){
   document.getElementById("button6").style.display = "none";
   var nextButton2 =  document.createElement("button");
    nextButton2.innerHTML = "Next";
-   nextButton2.onclick = nextButton2;
+   nextButton2.onclick = next2option;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton2);
 var idT = nextButton2;
 idT.setAttribute("id", "nextButton2");
+}
+
+function next2option(){
+  document.body.style.backgroundImage = "url('images/ClassorCafe.png')"
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButton2").style.display = "none";
 }
 
 function option4(){
