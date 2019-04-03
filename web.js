@@ -52,14 +52,14 @@ function option1() {
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button4);
 var idT = button4;
-idT.setAttribute("id", "nextButton4");
+idT.setAttribute("id", "button4");
 }
 
 function changePage2(){
   document.body.style.backgroundImage = "url('images/hallwaychoice.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton4").style.display = "none";
+  document.getElementById("button4").style.display = "none";
   var button5 = document.createElement("button");
    button5.innerHTML = "Option 3";
    button5.onclick = option3;
@@ -97,6 +97,21 @@ function next2option(){
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton2").style.display = "none";
+  var button7 = document.createElement("button");
+   button7.innerHTML = "Option 5";
+   //button7.onclick = option5;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(button7);
+var idT = button7;
+idT.setAttribute("id", "button7");
+
+ var button8 = document.createElement("button");
+button8.innerHTML = "Option 6";
+//button8.onclick = option6;
+var body2 = document.getElementsByTagName("body")[0];
+body2.appendChild(button8);
+var idT2 = button8;
+idT2.setAttribute("id", "button8");
 }
 
 function option4(){

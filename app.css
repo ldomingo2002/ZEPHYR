@@ -53,10 +53,10 @@
   font-family: 'Finger Paint', cursive;
 }
 #button2{
-  margin-top: 41%;
-  margin-left: 61%;
+  margin-top: 35%;
+   margin-left: 50%;
   height: 50px;
-  width:  100px;
+  width: 100px;
   font-family: 'Finger Paint', cursive;
 }
 #button3{
@@ -67,9 +67,9 @@
   font-family: 'Finger Paint', cursive;
 }
 
-#nextButton4{
-  margin-top: 500px;
-  margin-left: 800px;
+#button4{
+  margin-top: 35%;
+   margin-left: 43%;
   height: 50px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
@@ -89,15 +89,29 @@
   font-family: 'Finger Paint', cursive;
 }
 #button5{
-  margin-top: 30%;
-  margin-left: 5%;
+  margin-top: 35%;
+  margin-left: 20%;
   height: 50px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
 #button6{
-  margin-top: 41%;
-  margin-left: 61%;
+  margin-top: 35%;
+   margin-left: 43%;
+  height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
+}
+#button7{
+  margin-top: 35%;
+  margin-left: 20%;
+  height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
+}
+#button8{
+  margin-top: 35%;
+   margin-left: 43%;
   height: 50px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
