@@ -118,7 +118,7 @@ function option6(){
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button7").style.display = "none";
-  document.getElementById("butto8").style.display = "none";
+  document.getElementById("button8").style.display = "none";
   var nextButton3 =  document.createElement("button");
    nextButton3.innerHTML = "Next";
 //   nextButton3.onclick = gameOver2;
