@@ -99,7 +99,7 @@ function next2option(){
   document.getElementById("nextButton2").style.display = "none";
   var button7 = document.createElement("button");
    button7.innerHTML = "Option 5";
-   //button7.onclick = option5;
+  // button7.onclick = option5;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button7);
 var idT = button7;
@@ -107,7 +107,7 @@ idT.setAttribute("id", "button7");
 
  var button8 = document.createElement("button");
 button8.innerHTML = "Option 6";
-//button8.onclick = option6;
+button8.onclick = option6;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button8);
 var idT2 = button8;
@@ -126,6 +126,21 @@ function option4(){
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton3);
 var idT = nextButton3;
+idT.setAttribute("id", "nextButton3");
+}
+
+function option6(){
+  document.body.style.backgroundImage = "url('images/CHEMISTRY.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button7").style.display = "none";
+  document.getElementById("button8").style.display = "none";
+  var nextButton5 =  document.createElement("button");
+   nextButton5.innerHTML = "Next";
+   nextButton5.onclick = gameOver2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton5);
+var idT = nextButton5;
 idT.setAttribute("id", "nextButton3");
 }
 
