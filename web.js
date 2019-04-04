@@ -113,6 +113,21 @@ var idT2 = button8;
 idT2.setAttribute("id", "button8");
 }
 
+function option6(){
+  document.body.style.backgroundImage = "url('images/cafeoption.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button7").style.display = "none";
+  document.getElementById("butto8").style.display = "none";
+  var nextButton3 =  document.createElement("button");
+   nextButton3.innerHTML = "Next";
+//   nextButton3.onclick = gameOver2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton3);
+var idT = nextButton3;
+idT.setAttribute("id", "nextButton3");
+}
+
 function option4(){
   document.body.style.backgroundImage = "url('images/CHEMISTRY.png')";
   document.body.style.backgroundSize = "100%";
@@ -136,25 +151,39 @@ function option5(){
   document.getElementById("button8").style.display = "none";
   var nextButton4 =  document.createElement("button");
    nextButton4.innerHTML = "Next";
-   nextButton4.onclick = gameOver2;
+   nextButton4.onclick = cont1;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton4);
 var idT = nextButton4;
 idT.setAttribute("id", "nextButton3");
 }
 
-function option6(){
-  document.body.style.backgroundImage = "url('images/cafeoption.png')";
+function cont1(){
+  document.body.style.backgroundImage = "url('images/MONSTERCLASS.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button7").style.display = "none";
   document.getElementById("button8").style.display = "none";
   var nextButton5 =  document.createElement("button");
    nextButton5.innerHTML = "Next";
-   nextButton5.onclick = gameOver2;
+   nextButton5.onclick = cont2;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton5);
 var idT = nextButton5;
+idT.setAttribute("id", "nextButton3");
+}
+
+function cont3(){
+  document.body.style.backgroundImage = "url('images/MONSTERCLASS.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButton3").style.display = "none";
+  var nextButton6 =  document.createElement("button");
+   nextButton6.innerHTML = "Next";
+   nextButton6.onclick = cont2;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton6);
+var idT = nextButton6;
 idT.setAttribute("id", "nextButton3");
 }
 
