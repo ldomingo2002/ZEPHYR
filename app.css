@@ -87,7 +87,7 @@ font-size: 10px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
-#nextButton3{
+#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton8{
   margin-top: 41%;
   margin-left: 80%;
   height: 50px;
@@ -116,6 +116,20 @@ font-size: 10px;
   font-family: 'Finger Paint', cursive;
 }
 #button8{
+  margin-top: 35%;
+   margin-left: 43%;
+  height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
+}
+#button9{
+  margin-top: 35%;
+  margin-left: 20%;
+  height: 50px;
+  width: 100px;
+  font-family: 'Finger Paint', cursive;
+}
+#button10{
   margin-top: 35%;
    margin-left: 43%;
   height: 50px;
