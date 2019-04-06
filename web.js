@@ -164,7 +164,7 @@ function option6cont2(){
   document.getElementById("nextButton6").style.display = "none";
   var button9 = document.createElement("button");
    button9.innerHTML = "Option 7";
-   //button7.onclick = option7;
+   button7.onclick = option7;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button9);
 var idT = button9;
@@ -172,7 +172,7 @@ idT.setAttribute("id", "button9");
 
  var button10 = document.createElement("button");
 button10.innerHTML = "Option 8";
-//button10.onclick = option8;
+button10.onclick = option8;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button10);
 var idT2 = button10;
@@ -220,15 +220,15 @@ function cont2(){
 var idT = button9;
 idT.setAttribute("id", "button9");
 
- var button10 = document.createElement("button");
+var button10 = document.createElement("button");
 button10.innerHTML = "Option 8";
-//button10.onclick = option6;
+button10.onclick = option8;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button10);
 var idT2 = button10;
 idT2.setAttribute("id", "button10");
 }
-
+//from option 5
 function option7(){
   document.body.style.backgroundImage = "url('images/EXIT.png')";
   document.body.style.backgroundSize = "100%";
@@ -243,19 +243,47 @@ function option7(){
 var idT = nextButton7;
 idT.setAttribute("id", "nextButton3");
 }
-
 function option8(){
-  document.body.style.backgroundImage = "url('images/EXIT.png')";
+  document.body.style.backgroundImage = "url('images/15.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton3").style.display = "none";
-  var nextButton8 =  document.createElement("button");
+  document.getElementById("button9").style.display = "none";
+  document.getElementById("button10").style.display = "none";
+    var nextButton8 =  document.createElement("button");
    nextButton8.innerHTML = "Next";
-  //nextButton7.onclick = gameOver2;
+  nextButton8.onclick = option9;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton8);
 var idT = nextButton8;
 idT.setAttribute("id", "nextButton8");
+}
+
+function option9(){
+  document.body.style.backgroundImage = "url('images/16.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("button8").style.display = "none";
+    var nextButton9 =  document.createElement("button");
+   nextButton9.innerHTML = "Next";
+ nextButton9.onclick = option10;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton9);
+var idT = nextButton9;
+idT.setAttribute("id", "nextButton9");
+}
+
+function option10(){
+  document.body.style.backgroundImage = "url('images/17.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButton9").style.display = "none";
+    var nextButton10 =  document.createElement("button");
+   nextButton10.innerHTML = "Next";
+ //nextButton10.onclick = option11;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButton10);
+var idT = nextButton9;
+idT.setAttribute("id", "nextButton10");
 }
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";

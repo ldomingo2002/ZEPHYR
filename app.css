@@ -5,7 +5,7 @@
 
 #about{
 font-family: 'Finger Paint', cursive;
-font-size: 10px; 
+font-size: 10px;
 }
 
 #startbutton{
@@ -87,7 +87,7 @@ font-size: 10px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
-#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton8{
+#nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton8, #nextButton9{
   margin-top: 41%;
   margin-left: 80%;
   height: 50px;
