@@ -1,4 +1,4 @@
-function myFunction() {
+function function() {
     document.body.style.backgroundImage = "url('Images/leceiling.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
@@ -32,11 +32,11 @@ function myFunction() {
     document.getElementById("button2").style.display = "none";
     var button3 = document.createElement("button");
      button3.innerHTML = "Next";
-     button3.onclick = gameOver;
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
   idT.setAttribute("id", "button3");
+     button3.onclick = gameOver;
   }
 
 function option1() {
