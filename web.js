@@ -16,7 +16,7 @@ function function() {
  button1.onclick = losePage1;
   //option 2
   var button2 = document.createElement("button");
-  var body2 = document.getElementsByTagName("body")[ 0];
+  var body2 = document.getElementsByTagName("body")[0];
   body2.appendChild(button2);
   var idT2 = button2;
   idT2.setAttribute("id", "button2");
@@ -178,22 +178,7 @@ body2.appendChild(button10);
 var idT2 = button10;
 idT2.setAttribute("id", "button10");
 }
-//for option 6
 
-/*function option7for6(){
-  document.body.style.backgroundImage = "url('images/EXIT.png')";
-  document.body.style.backgroundSize = "100%";
-  document.body.style.backgroundPosition = "top right";
-  document.getElementById("button9").style.display = "none";
-  document.getElementById("button10").style.display = "none";
-    var nextButtonXii =  document.createElement("button");
-   nextButtonXii.innerHTML = "Next";
-nextButtonXii.onclick = gameOver2;
-   var body = document.getElementsByTagName("body")[0];
-   body.appendChild(nextButtonXii);
-var idT = nextButtonXii;
-idT.setAttribute("id", "nextButton3");
-}*/
 function option5(){
   document.body.style.backgroundImage = "url('Images/CLASSOP.png')";
   document.body.style.backgroundSize = "100%";
