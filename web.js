@@ -292,7 +292,7 @@ function option10(){
   document.body.style.backgroundImage = "url('images/17.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton8").style.display = "none";
+  document.getElementById("nextButton9").style.display = "none";
     var nextButtonX =  document.createElement("button");
    nextButtonX.innerHTML = "Next";
  nextButtonX.onclick = optionXi;
@@ -303,17 +303,66 @@ idT.setAttribute("id", "nextButtonX");
 }
 
 function optionXi(){
-document.body.style.backgroundImage = "url('images/19.png')";
-document.body.style.backgroundSize = "100%";
-document.body.style.backgroundPosition = "top right";
-document.getElementById("nextButtonX").style.display = "none";
-  var nextButtonXi =  document.createElement("button");
- nextButtonXi.innerHTML = "Next";
-//nextButtonX.onclick = optionXi;
+  document.body.style.backgroundImage = "url('images/19.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButtonX").style.display = "none";
+    var nextButtonXi =  document.createElement("button");
+   nextButtonXi.innerHTML = "Next";
+  nextButtonXi.onclick = optionXii;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButtonXi);
+  var idT = nextButtonXi;
+  idT.setAttribute("id", "nextButtonXi");
+}
+
+function optionXii(){
+  document.body.style.backgroundImage = "url('images/21.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButtonX").style.display = "none";
+    var nextButtonXii =  document.createElement("button");
+   nextButtonXii.innerHTML = "Next";
+  nextButtonXii.onclick = optionXiii;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButtonXii);
+  var idT = nextButtonXii;
+  idT.setAttribute("id", "nextButtonXii");
+}
+
+function optionXiii(){
+  document.body.style.backgroundImage = "url('images/21.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButtonXii").style.display = "none";
+    var nextButtonXiii =  document.createElement("button");
+   nextButtonXiii.innerHTML = "Next";
+  nextButtonXiii.onclick = optionXiv;
+   var body = document.getElementsByTagName("body")[0];
+   body.appendChild(nextButtonXiii);
+  var idT = nextButtonXiii;
+  idT.setAttribute("id", "nextButtonXiii");
+}
+function optionXiv(){
+  document.body.style.backgroundImage = "url('images/22.png')";
+  document.body.style.backgroundSize = "100%";
+  document.body.style.backgroundPosition = "top right";
+  document.getElementById("nextButtonXiii").style.display = "none";
+  var button11 =  document.createElement("button");
+ button11.innerHTML = "Option 11";
+//button11.onclick = optionXv;
  var body = document.getElementsByTagName("body")[0];
- body.appendChild(nextButtonXi);
-var idT = nextButtonXi;
-idT.setAttribute("id", "nextButtonXi");
+ body.appendChild(button11);
+var idT = button11;
+idT.setAttribute("id", "button11");
+
+var button12 = document.createElement("button");
+button12.innerHTML = "Option 12";
+//button12.onclick = optionXvi;
+var body2 = document.getElementsByTagName("body")[0];
+body2.appendChild(button12);
+var idT2 = button12;
+idT2.setAttribute("id", "button12");
 }
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
