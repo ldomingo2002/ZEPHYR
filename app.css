@@ -2,10 +2,26 @@
 
 @import url('https://fonts.googleapis.com/css?family=Finger+Paint');
 
+#navabout{
+  font-family: 'Finger Paint', cursive;
+}
+
+#helpage{
+  background-image: url('images/bg.png');
+}
+
+#aboutpage{
+  background-image: url('images/bg.png');
+}
+
+#help{
+  font-family: 'Finger Paint', cursive;
+  font-size: 25px;
+}
 
 #about{
-font-family: 'Finger Paint', cursive;
-font-size: 10px;
+  font-family: 'Finger Paint', cursive;
+  font-size: 25px;
 }
 
 #startbutton{
@@ -136,6 +152,7 @@ font-size: 10px;
   width: 100px;
   font-family: 'Finger Paint', cursive;
 }
+
 body{
 background: url('Images/NEWHOME.png') no-repeat;
 overflow: hidden;

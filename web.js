@@ -144,7 +144,7 @@ idT.setAttribute("id", "nextButton3");
 }
 
 function option6cont1(){
-  document.body.style.backgroundImage = "url('images/MONSTERCLASS.png')";
+  document.body.style.backgroundImage = "url('images/19.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton3").style.display = "none";
@@ -224,7 +224,7 @@ idT.setAttribute("id", "nextButton5");
 }
 
 function cont2(){
-  document.body.style.backgroundImage = "url('images/staitsorexit.png')";
+  document.body.style.backgroundImage = "url('images/RUN.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton5").style.display = "none";
