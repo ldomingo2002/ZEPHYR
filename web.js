@@ -295,11 +295,25 @@ function option10(){
   document.getElementById("nextButton8").style.display = "none";
     var nextButtonX =  document.createElement("button");
    nextButtonX.innerHTML = "Next";
- //nextButtonX.onclick = optionXi;
+ nextButtonX.onclick = optionXi;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButtonX);
 var idT = nextButtonX;
 idT.setAttribute("id", "nextButtonX");
+}
+
+function optionXi(){
+document.body.style.backgroundImage = "url('images/19.png')";
+document.body.style.backgroundSize = "100%";
+document.body.style.backgroundPosition = "top right";
+document.getElementById("nextButtonX").style.display = "none";
+  var nextButtonXi =  document.createElement("button");
+ nextButtonXi.innerHTML = "Next";
+//nextButtonX.onclick = optionXi;
+ var body = document.getElementsByTagName("body")[0];
+ body.appendChild(nextButtonXi);
+var idT = nextButtonXi;
+idT.setAttribute("id", "nextButtonXi");
 }
 function gameOver() {
   document.body.style.backgroundImage = "url('images/gameover.png')";
