@@ -1,4 +1,4 @@
-function function() {
+function function1() {
     document.body.style.backgroundImage = "url('Images/leceiling.png')";
     document.body.style.backgroundSize = "100%";
     document.body.style.backgroundPosition = "top right";
@@ -35,8 +35,11 @@ function function() {
      var body = document.getElementsByTagName("body")[0];
      body.appendChild(button3);
   var idT = button3;
-  idT.setAttribute("id", "button3");
-     button3.onclick = gameOver;
+  idT.setAttribute("id", "nextButton3");
+     let x = 2;
+     if (x===2){
+       button3.onclick = gameOver2;
+     }
   }
 
 function option1() {
@@ -84,11 +87,14 @@ function option4(){
   document.getElementById("button6").style.display = "none";
   var nextButton3 =  document.createElement("button");
    nextButton3.innerHTML = "Next";
-   nextButton3.onclick = gameOver2;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton3);
 var idT = nextButton3;
 idT.setAttribute("id", "nextButton3");
+let x = 1;
+if(x===1){
+  nextButton3.onclick = gameOver2;
+}
 }
 
 function option3(){
@@ -229,7 +235,7 @@ body2.appendChild(button10);
 var idT2 = button10;
 idT2.setAttribute("id", "button10");
 }
-//deosnt work from option 6
+
 function option7(){
   document.body.style.backgroundImage = "url('images/EXIT.png')";
   document.body.style.backgroundSize = "100%";
@@ -238,11 +244,14 @@ function option7(){
   document.getElementById("button10").style.display = "none";
   var nextButton7 =  document.createElement("button");
    nextButton7.innerHTML = "Next";
-  nextButton7.onclick = gameOver2;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButton7);
 var idT = nextButton7;
 idT.setAttribute("id", "nextButton3");
+let x = 1;
+if (x===1){
+  nextButton7.onclick = gameOver2;
+}
 }
 function option8(){
   document.body.style.backgroundImage = "url('images/15.png')";
@@ -415,23 +424,24 @@ function optionXvcont(){
   document.getElementById("nextButton4").style.display = "none";
     var button15 =  document.createElement("button");
    button15.innerHTML = "Next";
-  button15.onclick = gameOver2;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(button15);
   var idT = button15;
   idT.setAttribute("id", "nextButton3");
-}
-function gameOver() {
-  document.body.style.backgroundImage = "url('images/gameover.png')";
-  document.body.style.backgroundSize = "100%";
-  document.body.style.backgroundPosition = "top right";
-  document.getElementById("button3").style.display = "none";
+  let x = 1;
+if (x===1){
+  button15.onclick = gameOver2;
+  }
 }
 function gameOver2() {
+  let y = 3;
   document.body.style.backgroundImage = "url('images/gameover.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton3").style.display = "none";
+  do{
+    document.getElementById("nextButton3").style.display = "none";
+    y++;
+  }while(y===3);
 }
 
 function finalPage(){
