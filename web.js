@@ -295,52 +295,26 @@ function option10(){
   document.getElementById("nextButton8").style.display = "none";
     var nextButtonX =  document.createElement("button");
    nextButtonX.innerHTML = "Next";
- //nextButtonX.onclick = optionXi;
+ nextButtonX.onclick = optionXi;
    var body = document.getElementsByTagName("body")[0];
    body.appendChild(nextButtonX);
 var idT = nextButtonX;
 idT.setAttribute("id", "nextButtonX");
 }
 
-function cont3(){
-  document.body.style.backgroundImage = "url('images/17.png')";
-  document.body.style.backgroundSize = "100%";
-  document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton5").style.display = "none";
-  var button9 = document.createElement("button");
-   button9.innerHTML = "Option 11";
-   button9.onclick = option11;
-   var body = document.getElementsByTagName("body")[0];
-
-   body.appendChild(button9);
-var idT = button9;
-idT.setAttribute("id", "button9");
-
-var button10 = document.createElement("button");
-button10.innerHTML = "Option 8";
-button10.onclick = option8;
-var body2 = document.getElementsByTagName("body")[0];
-body2.appendChild(button10);
-var idT2 = button10;
-idT2.setAttribute("id", "button10");
+function optionXi(){
+document.body.style.backgroundImage = "url('images/19.png')";
+document.body.style.backgroundSize = "100%";
+document.body.style.backgroundPosition = "top right";
+document.getElementById("nextButtonX").style.display = "none";
+  var nextButtonXi =  document.createElement("button");
+ nextButtonXi.innerHTML = "Next";
+//nextButtonX.onclick = optionXi;
+ var body = document.getElementsByTagName("body")[0];
+ body.appendChild(nextButtonXi);
+var idT = nextButtonXi;
+idT.setAttribute("id", "nextButtonXi");
 }
-
-function option11(){
-  document.body.style.backgroundImage = "url('images/.png')";
-  document.body.style.backgroundSize = "100%";
-  document.body.style.backgroundPosition = "top right";
-  document.getElementById("nextButton9").style.display = "none";
-    var nextButton10 =  document.createElement("button");
-   nextButton10.innerHTML = "Next";
- //nextButton10.onclick = option11;
-   var body = document.getElementsByTagName("body")[0];
-   body.appendChild(nextButton10);
-var idT = nextButton9;
-idT.setAttribute("id", "nextButton10");
-}
-
-
-
 
 
 function gameOver() {
@@ -355,3 +329,4 @@ function gameOver2() {
   document.body.style.backgroundPosition = "top right";
   document.getElementById("nextButton3").style.display = "none";
 }
+/////
