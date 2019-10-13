@@ -154,9 +154,12 @@
 }
 
 body{
-background: url('Images/NEWHOME.png') no-repeat;
-overflow: hidden;
-background-size: cover;
+
+}
+#homeimg{
+  background-image: url('NEWHOME.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p{
