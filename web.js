@@ -186,7 +186,7 @@ idT2.setAttribute("id", "button10");
 }
 
 function option5(){
-  document.body.style.backgroundImage = "url('Images/CLASSOP.png')";
+  document.body.style.backgroundImage = "url('CLASSOP.png')";
   document.body.style.backgroundSize = "100%";
   document.body.style.backgroundPosition = "top right";
   document.getElementById("button7").style.display = "none";
