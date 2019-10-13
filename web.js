@@ -71,7 +71,7 @@ var idT = button5;
 idT.setAttribute("id", "button5");
 //bad option
 var button6 = document.createElement("button");
-button6.innerHTML = "Option 4";
+button6.innerHTML = "option 4";
 button6.onclick = option4;
 var body2 = document.getElementsByTagName("body")[0];
 body2.appendChild(button6);
